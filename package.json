@@ -1,0 +1,8 @@
+{
+  "name": "babel-preset-mesaic",
+  "version": "1.0.0",
+  "description": "Babel preset used for projects at Mesaic",
+  "main": "index.js",
+  "author": "Mesaic",
+  "license": "MIT"
+}

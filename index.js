@@ -9,6 +9,7 @@ module.exports = function buildMesaicPreset(context, options) {
     plugins: [
       require('babel-plugin-react-autoprefix'),
       require('babel-plugin-transform-runtime'),
+      require('babel-plugin-transform-decorators-legacy'),
     ],
   };
 };

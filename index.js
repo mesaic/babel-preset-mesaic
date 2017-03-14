@@ -1,7 +1,7 @@
 const browserVersions = ['> 5%', 'last 3 iOS versions', 'last 2 versions'];
 
-module.exports = function buildMesaicPreset(context, options) {
-  let preset; // eslint-disable-line no-var
+module.exports = function buildMesaicPreset(context, options_) {
+  const options = options_ || {};
   return {
     presets: [
       [require('babel-preset-env'), {targets: options.node ? {node: 'current'} : browserVersions, debug: options.debug}],

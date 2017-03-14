@@ -8,7 +8,8 @@ module.exports = function buildMesaicPreset(context, options) {
     ],
     plugins: [
       require('babel-plugin-react-autoprefix'),
-      require('babel-plugin-transform-runtime'),
+      // https://github.com/babel/babel/issues/2877
+      [require('babel-plugin-transform-runtime'), {polyfill: false}],
       require('babel-plugin-transform-decorators-legacy').default,
     ],
   };

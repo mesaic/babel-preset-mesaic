@@ -4,6 +4,9 @@
   "description": "Babel preset used for projects at Mesaic",
   "main": "index.js",
   "author": "Mesaic",
+  "publishConfig": {
+     "access": "public"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-plugin-react-autoprefix": "^1.0.1",

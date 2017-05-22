@@ -1,11 +1,11 @@
 {
   "name": "@mesaic/babel-preset-mesaic",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Babel preset used for projects at Mesaic",
   "main": "index.js",
   "author": "Mesaic",
   "publishConfig": {
-     "access": "public"
+    "access": "public"
   },
   "license": "MIT",
   "dependencies": {

@@ -9,7 +9,6 @@ module.exports = function buildMesaicPreset(context, options_) {
       require('babel-preset-react'),
     ],
     plugins: [
-      require('babel-plugin-react-autoprefix'),
       // https://github.com/babel/babel/issues/2877
       [require('babel-plugin-transform-runtime'), {polyfill: false}],
       require('babel-plugin-transform-decorators-legacy').default,
